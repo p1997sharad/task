@@ -29,6 +29,7 @@ class PlaceDataAdapter @Inject constructor(): PagingDataAdapter<DataModel.DataMo
             binding.apply {
                 image.load(data.downloadUrl)
 
+
             }
         }
     }
